@@ -4,7 +4,7 @@
   "description": "Awesome project developed with TypeORM.",
   "type": "commonjs",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "nodemon index.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -12,6 +12,7 @@
     "@types/node": "^16.18.101",
     "@types/supertest": "^6.0.2",
     "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.2",
     "ts-node": "^10.9.1",
